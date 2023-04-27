@@ -1,0 +1,20 @@
+.filter {
+  height: 40px;
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 0.35rem;
+  background-color: var(--background-button);
+  cursor: pointer;
+}
+
+.filter:hover {
+  transition: 100ms;
+  background-color: var(--background-button-hover);
+}
+
+@media(min-width: 768px) {
+  .filter {
+    height: 43px;
+    width: 125px;
+  }
+}

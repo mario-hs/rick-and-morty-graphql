@@ -1,0 +1,13 @@
+:root {
+  --background: #4F545F;
+  --background-button: #62a4ab;
+  --background-button-hover: #f9bf1e;
+  --background-card: #FFFCF1;
+  --text-primary: #34332F;
+  --text-button: #FFFCF1;
+  --text-secondary: #62a4ab;
+  --dead: #CD3F2C;
+  --alive: #00C9A7;
+  --unknown: #ADC5CF;
+  --shadow: rgba(249, 191, 30, 0.25)
+}

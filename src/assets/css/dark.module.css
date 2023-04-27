@@ -1,0 +1,16 @@
+[data-theme='dark'] {
+  --background: #34332F;
+  --background-button: #34332F;
+  --background-card: #34332F;
+  --text-primary: #D6CFBF;
+  --dead: red;
+  --alive: green;
+  --unknown: gray;
+
+  --nav-background: #2A2925;
+  --text-secondary: #DFAA12;
+  --accent-background: #484742;
+  --icon: #636055;
+  --mili-sec: #e42a2a;
+  --shadow: rgba(223, 170, 18, 0.25)
+}

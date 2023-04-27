@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-primary);
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+header svg, input, button {
+  cursor: pointer;
+}
+
+button, select {
+  background: none;
+  color: var(--text-button);
+  border: none
+}
+
+.container {
+  display: grid;
+  max-height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0px 5%;
+  grid-template-rows: 150px 1fr 100px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "head" "main" "nav";
+  background-color: var(--background);
+}
+
+header {
+  grid-area: head;
+  display: flex;
+  width: 100%;
+  gap: 7px;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: auto;
+}
+
+nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main {
+  grid-area: main;
+}
+
+
+@media(min-width: 768px) {
+  .container {
+    grid-template-rows: 100px 1fr 100px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media(min-width: 1024px) {
+
+}
