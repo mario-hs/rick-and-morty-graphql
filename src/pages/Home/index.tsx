@@ -46,8 +46,10 @@ const Home = () => {
 
   return (
     <>
-      {loading && <div>Loading...</div>}
-      {error && <div>Desculpe tivemos alguns problemas!</div>}
+      {loading && <div className={styles.loading}>Loading...</div>}
+      {error && (
+        <div className={styles.error}>Desculpe tivemos alguns problemas!</div>
+      )}
       {!loading && !error && (
         <div className={styles.container}>
           <header>
